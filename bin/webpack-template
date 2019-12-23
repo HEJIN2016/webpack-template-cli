@@ -1,0 +1,11 @@
+#! /usr/bin/env node
+
+const program = require('commander');
+const utils = require('../src/utils.js');
+
+// 打印版本号
+console.log(`${utils.getPackageName()} version: ${utils.getVersion()}`);
+
+program.usage('<command> [options]')
+  .command('init [name]', 'init a project')
+  .parse(process.argv);

@@ -1,0 +1,25 @@
+#! /usr/bin/env node
+
+const utils = require('../src/utils.js');
+const program = require('commander');
+const Template = require('../src/template');
+
+// 打印版本号
+console.log(`${utils.getPackageName()} version: ${utils.getVersion()}`);
+
+program
+  .option('--name [name]', '项目名称')
+  .parse(process.argv);
+
+// 获取项目名称
+const { name } = program;
+const args = program.args;
+
+const projectName = args[0] || name;
+
+const template = new Template({
+  projectName
+});
+
+template.init();
+
