@@ -1,6 +1,6 @@
 {
   "name": "webpack4-template-cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "webpack-template-cli",
   "main": "index.js",
   "bin": {
