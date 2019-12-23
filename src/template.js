@@ -34,7 +34,7 @@ class Template {
       type: 'input',
       message: '请输入项目描述',
       name: 'description',
-      default: ''
+      default: 'a project template with jquery and webpack'
     }, {
       type: 'input',
       message: '请输入项目git地址',

@@ -1,6 +1,6 @@
 {
-  "name": "webpack-template-cli",
-  "version": "0.0.1",
+  "name": "webpack4-template-cli",
+  "version": "0.0.2",
   "description": "webpack-template-cli",
   "main": "index.js",
   "bin": {
@@ -14,12 +14,12 @@
     "url": "git+https://github.com/HEJIN2016/webpack-template-cli.git"
   },
   "author": "hejin",
-  "license": "MIT",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/HEJIN2016/webpack-template-cli/issues"
   },
   "homepage": "https://github.com/HEJIN2016/webpack-template-cli#readme",
-  "devDependencies": {
+  "dependencies": {
     "chalk": "^3.0.0",
     "commander": "^4.0.1",
     "download-git-repo": "^3.0.2",
